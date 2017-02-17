@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 path = "D:\Python 2.7.9\libsvm-3.16\python"
 sys.path.append(path)
