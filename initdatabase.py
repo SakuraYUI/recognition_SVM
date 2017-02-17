@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import codecs 
 
 start, end = (0x4E00, 0x9FA5) 
