@@ -25,19 +25,7 @@ for codepoint in range(int(start), int(end)):
   rootpath = "./datatrain/" + str(i)
   os.makedirs(rootpath) 
   word = unichr(codepoint)
-  '''
-  im = Image.new("RGB", (36, 37), (255, 255, 255))
-  font = pygame.font.Font("./fonts/msyh.ttc", 36)
-  rtext = font.render(word, True, (0, 0, 0), (255, 255, 255)) 
-  sio = StringIO.StringIO()
-  pygame.image.save(rtext, sio)
-  sio.seek(0)
-  line = Image.open(sio)
-  im.paste(line, (0, 0))
-  path = rootpath + "/msyh.png"
-  im.save(path)
-  print i, line.size
-  '''
+
   im = Image.new("RGB", (360, 360), (255, 255, 255))
   font = pygame.font.Font("./fonts/simsun.ttc", 360)
   rtext = font.render(word, True, (0, 0, 0), (255, 255, 255)) 
